@@ -77,6 +77,7 @@
     <Compile Include="Assets\Scripts\TurretsBehaviour.cs" />
     <Compile Include="Assets\Scripts\Tutorial.cs" />
     <Compile Include="Assets\Scripts\WaveManager.cs" />
+    <Compile Include="Assets\Scripts\WaveProperties.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Unity - Project Defense/Project Defense/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

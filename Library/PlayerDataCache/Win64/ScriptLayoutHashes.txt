@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-D:/Unity - Project Defense/Project Defense/Release/v0.1/Project Defense.exe
+D:/Unity - Project Defense/Project Defense/Release/v0.6/Project Defense.exe
 SceneListBegin?
 Assets/MainMenu.unity
 Assets/MainScene.unity
@@ -229,6 +229,7 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 318cac8835de6d9deacad63b00378db2 Assembly-CSharp.dll:.MainMenu
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Tutorial
 a4f0a4f62100f1a4fb5cbe0e00dde83f Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 c98d5c8f7d5d06127c3d0a8cd7e6e90b Assembly-CSharp.dll:.EventManager
 5fc094978ce3e3591a7500ed380d854a Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
@@ -236,7 +237,7 @@ d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.Spa
 78037076849ecb9aa0431173c6d4093b Assembly-CSharp.dll:.GameOver
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.spawnPoint
-aec8f6302db1680f433e0aa19c9bcddd Assembly-CSharp.dll:.PawnBehaviour
+04861748a115ecd40337f38a820591b2 Assembly-CSharp.dll:.PawnBehaviour
 c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
@@ -275,7 +276,7 @@ cd67f3e1e9ccac6db86c1564cea5a827 Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 69167579cf7fcbb2676fc1e675963dcd Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-7a5f43eba6e2f33eede957aad2da96d6 Assembly-CSharp.dll:.WaveManager
+01d24eb434b9c47cfb560519f1427938 Assembly-CSharp.dll:.WaveManager
 2e0cb2f372fbf5db3d383eba48214992 Assembly-CSharp.dll:.PauseMenu
 0077fc8e4fbae67f80e80ebd534de5a0 Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 f8b139fcde9fda6214245df246415cc7 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
@@ -312,4 +313,3 @@ cd67f3e1e9ccac6db86c1564cea5a827 Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 69167579cf7fcbb2676fc1e675963dcd Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Tutorial

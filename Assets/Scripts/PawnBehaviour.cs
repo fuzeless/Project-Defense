@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PawnBehaviour : MonoBehaviour
 {
@@ -8,11 +9,16 @@ public class PawnBehaviour : MonoBehaviour
     public float speed = 5f;
     private int it = 0;
     //public int defaultHealth = 2;
-    public int health = 10;
+    public float health;
+    public float maxHealth;
+    public int moneyEarned;
+
+    public Image healthBar;
 
     void Start()
     {
         destination = Checkpoints.points[it];
+        maxHealth = health;
     }
 
     void nextCheck()
@@ -24,6 +30,7 @@ public class PawnBehaviour : MonoBehaviour
     public void takeDamage(int damage)
     {
         health -= damage;
+        healthBar.fillAmount = health / maxHealth;
         if (health <= 0)
         {
             DestroyEnemy();
@@ -33,7 +40,8 @@ public class PawnBehaviour : MonoBehaviour
     void DestroyEnemy()
     {
         Destroy(gameObject);
-        Stats.cash += 50;
+        Stats.cash += moneyEarned;
+        WaveManager.numOfOnScreenEnemies--;
     }
 
     void Update()
@@ -49,6 +57,7 @@ public class PawnBehaviour : MonoBehaviour
                 Destroy(gameObject);
                 Stats.lives--;
                 it = 0;
+                WaveManager.numOfOnScreenEnemies--;
             }
             destination = Checkpoints.points[it];
 

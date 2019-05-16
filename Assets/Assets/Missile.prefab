@@ -44,10 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 508dbee23e556a4438cdc64ec79596f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletSpeed: 15
+  bulletSpeed: 40
   missileRadius: 5
-  turretDamageAmount: 5
-  missileDamageAmount: 3
+  turretDamageAmount: 0
+  missileDamageAmount: 5
   particle: {fileID: 1000013060428206, guid: b47b9de8edd166346ad81c4a4834eca1, type: 3}
 --- !u!1 &7001993243051135247
 GameObject:
