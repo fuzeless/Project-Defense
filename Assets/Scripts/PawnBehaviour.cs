@@ -48,7 +48,7 @@ public class PawnBehaviour : MonoBehaviour
     {
         Vector3 dir = destination.position - transform.position;
         transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
-        if (Vector3.Distance(transform.position, destination.position) <= 0.1f)
+        if (Vector3.Distance(transform.position, destination.position) <= 1f)
         {
             //nextCheck();
             it++;

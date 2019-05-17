@@ -354,7 +354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  health: 125
+  health: 200
   maxHealth: 0
   moneyEarned: 100
   healthBar: {fileID: 223966341}

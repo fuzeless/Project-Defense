@@ -257,7 +257,7 @@ MonoBehaviour:
   speed: 25
   health: 15
   maxHealth: 0
-  moneyEarned: 50
+  moneyEarned: 15
   healthBar: {fileID: 7731228507710548169}
 --- !u!1 &8007491864142379273
 GameObject:

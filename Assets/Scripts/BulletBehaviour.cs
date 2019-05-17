@@ -69,6 +69,7 @@ public class BulletBehaviour : MonoBehaviour
         }
         Instantiate(particle, transform.position, particle.transform.rotation);
         Destroy(gameObject);
+        Destroy(particle, 5f);
     }
 
 

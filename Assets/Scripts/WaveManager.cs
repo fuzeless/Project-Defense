@@ -58,7 +58,9 @@ public class WaveManager : MonoBehaviour
             return;
         }
         timer -= Time.deltaTime;
-        timerText.text = Mathf.Ceil(timer).ToString();
+        timer = Mathf.Clamp(timer, 0f, Mathf.Infinity);
+        //timerText.text = Mathf.Ceil(timer).ToString();
+        timerText.text = string.Format("{0:00.00}", timer);
         waveCountText.text = "Wave: " + (waveCounts).ToString();
     }
 }
