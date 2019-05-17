@@ -1,6 +1,0 @@
-Library/
-Logs/
-obj/
-Package/
-Release/
-Temp/
